@@ -4,7 +4,7 @@ A near-black login screen lit by a faint ember glow. The Daedric script is real:
 (SIL Open Font License 1.1), which maps the Latin letters A–Z onto the Daedric
 alphabet, so every inscription is a readable phrase.
 
-![login](screenshots/login.png)
+![login](screenshots/login.jpg)
 
 ## What is on screen
 
@@ -47,7 +47,7 @@ serif works (`latinFont=` in `theme.conf`). The Daedric font is bundled.
 Or by hand:
 
     sudo mkdir -p /usr/share/sddm/themes/daedric-morrowind
-    sudo cp -r Main.qml metadata.desktop theme.conf assets fonts preview.png /usr/share/sddm/themes/daedric-morrowind/
+    sudo cp -r Main.qml metadata.desktop theme.conf assets fonts preview.jpg /usr/share/sddm/themes/daedric-morrowind/
 
 then pick **Daedric Morrowind** in System Settings › Colors & Themes › Login Screen (SDDM).
 
@@ -55,7 +55,7 @@ then pick **Daedric Morrowind** in System Settings › Colors & Themes › Login
 
     sddm-greeter-qt6 --test-mode --theme /usr/share/sddm/themes/daedric-morrowind
 
-![test mode](screenshots/login-testmode.png)
+![test mode](screenshots/login-testmode.jpg)
 
 ## The rest of the suite
 

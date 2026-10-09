@@ -5,7 +5,7 @@ set -euo pipefail
 HERE=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 DST=/usr/share/sddm/themes/daedric-morrowind
 mkdir -p "$DST"
-cp -r "$HERE"/{Main.qml,metadata.desktop,theme.conf,assets,fonts,preview.png} "$DST"/
+cp -r "$HERE"/{Main.qml,metadata.desktop,theme.conf,assets,fonts,preview.jpg} "$DST"/
 chmod -R a+rX "$DST"
 mkdir -p /etc/sddm.conf.d
 # SDDM reads its config files in name order and the last Current= wins, so update
