@@ -1,0 +1,14 @@
+[SddmGreeterTheme]
+Name=Daedric Morrowind
+Description=Dark Morrowind shrine login: a layered, animated sigil of live Daedric script, rune banners and a rune password mask
+Author=splicer scorn (voidrane)
+License=GPL-3.0-or-later
+Type=sddm-theme
+Version=1.0
+Website=https://github.com/numbpill3d/daedric-morrowind-sddm
+Screenshot=preview.png
+MainScript=Main.qml
+ConfigFile=theme.conf
+Theme-Id=daedric-morrowind
+Theme-API=2.0
+QtVersion=6
